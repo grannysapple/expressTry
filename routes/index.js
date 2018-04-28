@@ -9,7 +9,7 @@ var router = express.Router();
 router.get('/', function(req, res) {
   //res.send('ok Roger');
   res.render('index', {
-    title: 'my App is here!',
+    title: 'my App is here, can I test a change!',
     age: req.query.age
   });
 });
